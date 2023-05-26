@@ -47,6 +47,9 @@ public class One_Away {
 		return true;
 	}
 
+	// Optimal solution
+	// Time Complexity: O(n)
+	// Space Complexity: O(n)
 	private static boolean solve(char[] string1, char[] string2) {
 		if (string1 == null || string2 == null)
 			throw new InputMismatchException();
